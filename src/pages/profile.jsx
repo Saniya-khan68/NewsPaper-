@@ -27,7 +27,7 @@ export default function Profile() {
             
             <div className="flex items-center gap-6">
                 <img
-                    src={user.photo}
+                    // src={user.photo}
                     alt="User"
                     className="w-32 h-32 rounded-full border-2 border-pink-300"
                 />
