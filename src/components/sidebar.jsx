@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Profile from "../pages/Profile";
+import Profile from "../pages/Profile.jsx";
 import AttendanceCalendar from "../pages/AttendanceCalendar";
 import Payment from "../pages/Payment";
 import Newspaper from "../pages/Newspaper";
@@ -17,7 +17,7 @@ export default function Sidebar() {
             case "payment":
                 return <Payment />;
             case "newspaper":
-                return <Newspaper />; 
+                return <Newspaper />;
             case "agent":
                 return <Agent />;
             case "history":
@@ -51,7 +51,7 @@ export default function Sidebar() {
                 ))}
             </div>
 
-            
+
             <div className="flex-1 p-6">{renderContent()}</div>
         </div>
     );
