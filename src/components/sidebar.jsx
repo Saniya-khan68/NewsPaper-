@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Profile from "../pages/Profile.jsx";
+import Profile from "@/pages/Profile.jsx";
+
 import AttendanceCalendar from "../pages/AttendanceCalendar";
 import Payment from "../pages/Payment";
 import Newspaper from "../pages/Newspaper";
